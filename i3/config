@@ -195,6 +195,8 @@ exec --no-startup-id /usr/bin/blueman-applet
 exec ~/.config/i3/start_progs.sh
 exec xset b off
 exec redshift -O 4200
+exec --no-startup-id feh --bg-max ~/.wallpapers/wallpaper.jpg
+
 exec --no-startup-id nm-applet
 exec --no-startup-id ssh-agent
 exec --no-startup-id parcellite
