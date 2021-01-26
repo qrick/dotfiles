@@ -191,11 +191,11 @@ bar {
 }
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 exec --no-startup-id compton -b &
-#exec --no-startup-id "i3-msg 'workspace 1:term; append_layout /home/gisty/.config/i3/terminals.json'"
-#exec --no-startup-id /usr/bin/blueman-applet
-#exec /home/gisty/.config/i3/start_progs.sh
+exec --no-startup-id "i3-msg 'workspace 1:term; append_layout /home/gisty/.config/i3/terminals.json'"
+exec --no-startup-id /usr/bin/blueman-applet
+exec /home/gisty/.config/i3/start_progs.sh
 exec xset b off
-#exec redshift -O 4200
+exec redshift -O 4200
 exec --no-startup-id nm-applet
 exec --no-startup-id ssh-agent
 exec --no-startup-id parcellite
