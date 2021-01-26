@@ -7,7 +7,7 @@
 
 IMAGE=/tmp/i3lock.png
 SCREENSHOT="scrot $IMAGE" # 0.46s
-ICON="/home/gisty/.config/i3/locked.png"
+ICON="~/.config/i3/locked.png"
 
 scrot $IMAGE
 

@@ -5,7 +5,7 @@ function kblayout {
   esac
 }
 
-i3status -c /home/gisty/.config/i3/i3status.conf | while :
+i3status -c ~/.config/i3/i3status.conf | while :
 do 
   read LINE
   echo "$LINE | $(kblayout)"
