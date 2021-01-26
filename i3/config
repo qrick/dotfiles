@@ -153,7 +153,11 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 bindsym $mod+Ctrl+l exec "bash ~/.config/i3/i3lock.sh"
+<<<<<<< HEAD
 bindsym $mod+F4 exec "bash ~/.config/i3/pm-suspend.sh"
+=======
+bindsym $mod+F4 exec "bash ~/.config/i3/pm-suspend.sh"
+>>>>>>> b7b69089a9b393bfcd017bb5c7b3a8d5c5ca17e7
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -192,7 +196,11 @@ bar {
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 exec --no-startup-id "i3-msg 'workspace 1:term; append_layout ~/.config/i3/terminals.json'"
 exec --no-startup-id /usr/bin/blueman-applet
+<<<<<<< HEAD
 exec ~/.config/i3/start_progs.sh
+=======
+exec ~/.config/i3/start_progs.sh
+>>>>>>> b7b69089a9b393bfcd017bb5c7b3a8d5c5ca17e7
 exec xset b off
 exec redshift -O 4200
 exec --no-startup-id nm-applet
